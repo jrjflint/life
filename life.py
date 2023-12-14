@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # --- 2. Load the contents of the .env file as environment variables:
-load_dotenv(dotenv_path=".env")
+load_dotenv(dotenv_path=".env", verbose=True)
 
 # --- 3. Print out the value of MY_VAR:
-print(os.getenv("birth_date"))
+print(os.getenv("birth_date", "Default Date"))
 
 # Define the birthdate and calculate the age based on today's date
 
