@@ -2,7 +2,6 @@ import os
 from dotenv.main import load_dotenv
 from datetime import datetime
 import matplotlib.pyplot as plt
-import numpy as np
 
 # --- 2. Load the contents of the .env file as environment variables:
 load_dotenv(dotenv_path=".env", verbose=True)
